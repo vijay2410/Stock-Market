@@ -1,0 +1,81 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling for the hero section */
+.hero {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Styling for stock cards */
+.stock-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.stock-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.stock-card img {
+    max-width: 30%;
+    height:70%;
+}
+
+/* Styling for news articles */
+.news {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+
+.news-article {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.news-article img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
